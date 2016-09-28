@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+		<title>Document</title>
+	</head>
+	<body>
+		<form >
+			<fieldset style="width: 50%">
+				<legend>реєстрація нового користувача</legend>
+				<br>
+				<input type="text" id="name" placeholder="введіть ім'я"
+				name="ім'я">
+				<label for="name"> ім'я</label><br>
+				<input type="password" id="password" placeholder="пароль"
+				name="пароль">
+				<label for="password"> пароль</label><br>
+				<input type="text" id="age" placeholder="вік"
+				maxlength="3" name="вік">
+				<label for="age" >вік</label><br>
+				<input type="email" id="email" placeholder="mail@example.com"
+				name="email">
+				<label for="email"> email</label><br>
+				<input type="tel" id="tel" name="телефон"  maxlength="10"
+				placeholder="0931234567">
+				<label for="tel"> номер мобільного(без +38)</label>
+				<div><button id="submit">зареєструвати</button></div><br>
+			</fieldset>
+		</form>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+/*input[type='text'] {
+            margin-top: 17px;  уменьшите на свой вкус  
+            margin-bottom: 16px;
+             /* здесь тоже */
+body{
+	font-size: 20px;
+	font-family: italic; 
+}
+form{
+	margin-left: 80px;
+}
+input, button {
+	margin-left: 50px;
+	margin-top: 10px; /* уменьшите на свой вкус  */
+  margin-bottom: 10px;
+}
+/*button {
+	margin-left: 50px;
+}*/
+
+.error{
+	border: 3px solid red;
+	
+}
+
+
